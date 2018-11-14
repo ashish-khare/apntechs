@@ -1,0 +1,54 @@
+/* CSS Document */
+
+html, body{
+	text-rendering: optimizeLegibility;
+	text-rendering: optimizespeed;
+	font-smooth: always; 
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	overflow-x: hidden; 
+	margin:0;
+	padding:0;
+	height:100%;
+    font-family: 'Open Sans', sans-serif;
+ }
+*{margin:0px; padding:0px;}
+h1,h2,h3,h4,h5,h6 { margin: 0px; padding: 0px; font-family: 'Open Sans', sans-serif;}
+
+p { margin: 0px; padding: 0px; font-family: 'Open Sans', sans-serif; }
+a { color: #000; text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { outline: none; text-decoration:none; }
+
+.header{box-shadow: 1px 4px 10px #eee;}
+
+.nav-header{margin-top: 0px; padding: 5px 10px; background-color: #0057a7; margin-top: 5px; }
+.nav-header a{color: #ffda00; font-size: 26px; text-transform: uppercase; font-weight: 600; letter-spacing: 1.5px;}
+
+.bg-1{background-color: #eee; min-height: 550px;}
+.first-form{ padding: 20px 10px 15px 10px; background-color: #fff; width: 60%; display: table; margin: 10px auto; box-shadow: 2px 4px 10px #ccc;}
+.input-container {position: relative;margin: 5px auto;}
+.input {
+    margin: 0;
+    height: 40px;
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 10px;
+    border-radius: 1px;
+    border: 1px solid #ccc;
+    color: #4f506f !important;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background-color: #fff;
+}
+ .input-icon {position: absolute;left: 15px;bottom: 5px;width: 24px;height: 22px;color: #4f506f;}
+
+.input-container label{font-size: 12px; }
+.heading{font-size: 16px; font-weight: 600; color: red; margin-top: 5px; position: relative; margin-bottom: 8px; margin-left: 15px;}
+.heading1{font-size: 15px; font-weight: 500; margin-top: 15px; margin-left: 15px; color: red; }
+.submit{ border: none; padding: 8px 20px; background-color: orange; margin-top: 20px; color: #fff; width: 100%; font-weight: 600; font-size: 16px; box-shadow: 1px 5px 15px #ccc;}
+
+
+.footer {text-align: center; background-color: #000; padding: 40px 0px; }
+.footer p{color: #fff;}
+.footer p a{color: #fff;}
